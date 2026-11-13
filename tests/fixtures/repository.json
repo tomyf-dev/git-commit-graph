@@ -1,0 +1,284 @@
+{
+  "commits": [
+    {
+      "id": "db967c8501a42295d4256cf6e45d9c9116d2da23",
+      "parentIds": [
+        "656599b36930f73983a457ba8f4b3961ec9b20d7"
+      ],
+      "subject": "feat: start active feature",
+      "refs": "feature/active"
+    },
+    {
+      "id": "01406f18a3a9cb9d8467ce07bdbdd1ac989078ae",
+      "parentIds": [
+        "859f8f62c8208894abbad612d4bc79785359d7b7"
+      ],
+      "subject": "feat: preserve old-base experiment",
+      "refs": "feature/behind"
+    },
+    {
+      "id": "8aa3dd6be87eff5aa8dc9f7f03f3e0af1877f8d4",
+      "parentIds": [
+        "f4173326bfd9f94f156c6f4080bfa35e493e0b07"
+      ],
+      "subject": "feat: choose dark theme",
+      "refs": "feature/conflict"
+    },
+    {
+      "id": "628110f7d4f04e7795af7c1c9c4b78ee4ba4a57b",
+      "parentIds": [
+        "038a74620e485fdb29caec4f76f6ac86d790125a"
+      ],
+      "subject": "docs: describe graph and worktree scenarios",
+      "refs": "HEAD -> main"
+    },
+    {
+      "id": "1ec8cea89afe204fbc0735b568c2bd289f9a6f80",
+      "parentIds": [
+        "038a74620e485fdb29caec4f76f6ac86d790125a"
+      ],
+      "subject": "feat: experiment on detached HEAD",
+      "refs": ""
+    },
+    {
+      "id": "038a74620e485fdb29caec4f76f6ac86d790125a",
+      "parentIds": [
+        "f4173326bfd9f94f156c6f4080bfa35e493e0b07"
+      ],
+      "subject": "feat: choose light theme",
+      "refs": "tag: v2.0.0"
+    },
+    {
+      "id": "f4173326bfd9f94f156c6f4080bfa35e493e0b07",
+      "parentIds": [
+        "48bf79fc760cd616de36fb162545f5f5481897ce"
+      ],
+      "subject": "Revert \"feat: add reversible experiment\"",
+      "refs": ""
+    },
+    {
+      "id": "48bf79fc760cd616de36fb162545f5f5481897ce",
+      "parentIds": [
+        "656599b36930f73983a457ba8f4b3961ec9b20d7"
+      ],
+      "subject": "feat: add reversible experiment",
+      "refs": ""
+    },
+    {
+      "id": "ccc237ddb1c3c3e70ae0859a985347510fb7f191",
+      "parentIds": [
+        "6e386e26fa55539a6c78d0cbd03642f62c154701"
+      ],
+      "subject": "feat: continue search after main merge",
+      "refs": "feature/merged-continued"
+    },
+    {
+      "id": "64aba0a6d367f8d2f59dc4ee268ed3e96c7558b7",
+      "parentIds": [
+        "b7c7dddfdeaf71ab4a5d7249b2e5b68e8daa2e8c"
+      ],
+      "subject": "feat: refine squash candidate",
+      "refs": "feature/squashed"
+    },
+    {
+      "id": "03146fe09650c4bcea9ff55dafa7f3c49a4db4cd",
+      "parentIds": [
+        "a4de2cd49128003776e3123b5a8fd202196a1612"
+      ],
+      "subject": "fix: patch release behavior",
+      "refs": "tag: v1.0.1, hotfix/release"
+    },
+    {
+      "id": "656599b36930f73983a457ba8f4b3961ec9b20d7",
+      "parentIds": [
+        "6d9389a169006d551284c223e52af5a123272808"
+      ],
+      "subject": "fix: patch release behavior",
+      "refs": ""
+    },
+    {
+      "id": "b7c7dddfdeaf71ab4a5d7249b2e5b68e8daa2e8c",
+      "parentIds": [
+        "c3d7e42c83992ab43818b22cb4a8be67a0d7ac20"
+      ],
+      "subject": "feat: start squash candidate",
+      "refs": ""
+    },
+    {
+      "id": "6d9389a169006d551284c223e52af5a123272808",
+      "parentIds": [
+        "c3d7e42c83992ab43818b22cb4a8be67a0d7ac20"
+      ],
+      "subject": "feat: squash feature implementation",
+      "refs": ""
+    },
+    {
+      "id": "c3d7e42c83992ab43818b22cb4a8be67a0d7ac20",
+      "parentIds": [
+        "8d4b6d101e5d6f8a104fc253354d2c78a59e469d"
+      ],
+      "subject": "docs: add fast-forward example",
+      "refs": "feature/fast-forward"
+    },
+    {
+      "id": "8d4b6d101e5d6f8a104fc253354d2c78a59e469d",
+      "parentIds": [
+        "3d8f58b730780a120c49c31b3e8afd4fcd0d4dc6",
+        "183077a8c5718c8e6dbfacb1d7500757c3076817"
+      ],
+      "subject": "feat: merge UI work",
+      "refs": ""
+    },
+    {
+      "id": "3d8f58b730780a120c49c31b3e8afd4fcd0d4dc6",
+      "parentIds": [
+        "a4de2cd49128003776e3123b5a8fd202196a1612"
+      ],
+      "subject": "chore: advance main independently",
+      "refs": ""
+    },
+    {
+      "id": "183077a8c5718c8e6dbfacb1d7500757c3076817",
+      "parentIds": [
+        "8a8c0ce0e1c0f9fb290ac695df0abb05416def10",
+        "6f999da941858c9f7f660f3e20f313a0165c9ddf"
+      ],
+      "subject": "feat: merge nested UI component",
+      "refs": "feature/ui"
+    },
+    {
+      "id": "8a8c0ce0e1c0f9fb290ac695df0abb05416def10",
+      "parentIds": [
+        "9a770621ddbbf73d2a9230ba5f6fbe6e3c74c2c4"
+      ],
+      "subject": "feat: add UI navigation",
+      "refs": ""
+    },
+    {
+      "id": "6f999da941858c9f7f660f3e20f313a0165c9ddf",
+      "parentIds": [
+        "9a770621ddbbf73d2a9230ba5f6fbe6e3c74c2c4"
+      ],
+      "subject": "feat: add nested UI component",
+      "refs": "feature/ui-nested"
+    },
+    {
+      "id": "9a770621ddbbf73d2a9230ba5f6fbe6e3c74c2c4",
+      "parentIds": [
+        "a4de2cd49128003776e3123b5a8fd202196a1612"
+      ],
+      "subject": "feat: add UI shell",
+      "refs": ""
+    },
+    {
+      "id": "a4de2cd49128003776e3123b5a8fd202196a1612",
+      "parentIds": [
+        "375bf71e35fc3f67da9f93a7dac4711b27d7a031",
+        "6e386e26fa55539a6c78d0cbd03642f62c154701"
+      ],
+      "subject": "feat: merge search implementation",
+      "refs": "tag: v1.0.0"
+    },
+    {
+      "id": "375bf71e35fc3f67da9f93a7dac4711b27d7a031",
+      "parentIds": [
+        "859f8f62c8208894abbad612d4bc79785359d7b7"
+      ],
+      "subject": "docs: add mainline notes",
+      "refs": ""
+    },
+    {
+      "id": "6e386e26fa55539a6c78d0cbd03642f62c154701",
+      "parentIds": [
+        "c6f863cd31a1b1eb9b0771b103f156d50c250652"
+      ],
+      "subject": "feat: implement search indexing",
+      "refs": ""
+    },
+    {
+      "id": "c6f863cd31a1b1eb9b0771b103f156d50c250652",
+      "parentIds": [
+        "859f8f62c8208894abbad612d4bc79785359d7b7"
+      ],
+      "subject": "feat: add search foundation",
+      "refs": ""
+    },
+    {
+      "id": "859f8f62c8208894abbad612d4bc79785359d7b7",
+      "parentIds": [],
+      "subject": "chore: initialize graph playground",
+      "refs": "tag: v0.1.0"
+    }
+  ],
+  "worktrees": [
+    {
+      "id": "/Users/tomy/Workspace/test-graph",
+      "headCommitId": "628110f7d4f04e7795af7c1c9c4b78ee4ba4a57b",
+      "label": "main",
+      "isDirty": true
+    },
+    {
+      "id": "/Users/tomy/Workspace/test-graph/.worktrees/01-branch-clean",
+      "headCommitId": "183077a8c5718c8e6dbfacb1d7500757c3076817",
+      "label": "feature/ui",
+      "isDirty": true
+    },
+    {
+      "id": "/Users/tomy/Workspace/test-graph/.worktrees/02-branch-dirty",
+      "headCommitId": "db967c8501a42295d4256cf6e45d9c9116d2da23",
+      "label": "feature/active",
+      "isDirty": true
+    },
+    {
+      "id": "/Users/tomy/Workspace/test-graph/.worktrees/03-merged-continued",
+      "headCommitId": "ccc237ddb1c3c3e70ae0859a985347510fb7f191",
+      "label": "feature/merged-continued",
+      "isDirty": true
+    },
+    {
+      "id": "/Users/tomy/Workspace/test-graph/.worktrees/04-detached-tag",
+      "headCommitId": "a4de2cd49128003776e3123b5a8fd202196a1612",
+      "label": "detached HEAD",
+      "isDirty": true
+    },
+    {
+      "id": "/Users/tomy/Workspace/test-graph/.worktrees/05-detached-commit",
+      "headCommitId": "1ec8cea89afe204fbc0735b568c2bd289f9a6f80",
+      "label": "detached HEAD",
+      "isDirty": true
+    },
+    {
+      "id": "/Users/tomy/Workspace/test-graph/.worktrees/06-old-base",
+      "headCommitId": "01406f18a3a9cb9d8467ce07bdbdd1ac989078ae",
+      "label": "feature/behind",
+      "isDirty": true
+    },
+    {
+      "id": "/Users/tomy/Workspace/test-graph/.worktrees/07-merge-conflict",
+      "headCommitId": "8aa3dd6be87eff5aa8dc9f7f03f3e0af1877f8d4",
+      "label": "feature/conflict",
+      "isDirty": true
+    },
+    {
+      "id": "/Users/tomy/Workspace/test-graph/.worktrees/08-merged-nested",
+      "headCommitId": "6f999da941858c9f7f660f3e20f313a0165c9ddf",
+      "label": "feature/ui-nested",
+      "isDirty": true
+    },
+    {
+      "id": "/Users/tomy/Workspace/test-graph/.worktrees/09-detached-ui-navigation",
+      "headCommitId": "8a8c0ce0e1c0f9fb290ac695df0abb05416def10",
+      "label": "detached HEAD",
+      "isDirty": true
+    }
+  ],
+  "stashes": [
+    {
+      "id": "stash@{0}",
+      "label": "On main: sample: tracked and untracked work in progress",
+      "baseCommitId": "038a74620e485fdb29caec4f76f6ac86d790125a"
+    }
+  ],
+  "primaryWorktreeId": "/Users/tomy/Workspace/test-graph",
+  "primaryHeadId": "628110f7d4f04e7795af7c1c9c4b78ee4ba4a57b"
+}

@@ -1,0 +1,72 @@
+{
+  "commits": [
+    {
+      "id": "feature-next",
+      "parentIds": [
+        "feature"
+      ],
+      "subject": "Continue feature after merge"
+    },
+    {
+      "id": "main",
+      "parentIds": [
+        "base",
+        "feature"
+      ],
+      "subject": "Merge feature into main"
+    },
+    {
+      "id": "feature",
+      "parentIds": [
+        "base"
+      ],
+      "subject": "Implement feature"
+    },
+    {
+      "id": "base",
+      "parentIds": [
+        "initial"
+      ],
+      "subject": "Prepare application"
+    },
+    {
+      "id": "initial",
+      "parentIds": [],
+      "subject": "Initial commit"
+    }
+  ],
+  "worktrees": [
+    {
+      "id": "main-worktree",
+      "label": "main",
+      "headCommitId": "main",
+      "isDirty": true,
+      "changedFileCount": 2
+    },
+    {
+      "id": "feature-worktree",
+      "label": "feature",
+      "headCommitId": "feature-next",
+      "isDirty": false
+    },
+    {
+      "id": "detached-worktree",
+      "label": "detached HEAD",
+      "headCommitId": "feature-next",
+      "isDetached": true,
+      "isDirty": true,
+      "changedFileCount": 1
+    }
+  ],
+  "stashes": [
+    {
+      "id": "stash-1",
+      "baseCommitId": "main",
+      "subject": "Save unfinished changes",
+      "label": "Save unfinished changes",
+      "body": "Resume the settings screen later."
+    }
+  ],
+  "primaryWorktreeId": "main-worktree",
+  "primaryHeadId": "main"
+}

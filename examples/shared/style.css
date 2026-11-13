@@ -1,0 +1,12 @@
+:root { font: 14px system-ui, sans-serif; color: #ccc; background: #10141c; }
+body { max-width: 980px; margin: 36px auto; padding: 0 24px; }
+a { color: #8dc8ff; } nav { display: flex; gap: 20px; }
+h1 { font-size: 24px; } p { color: #96a2b3; }
+.controls { display: flex; gap: 16px; align-items: center; flex-wrap: wrap; margin: 24px 0; }
+label { display: inline-flex; gap: 8px; align-items: center; }
+select, button { color: #ccc; background: #202733; border: 1px solid #465266; border-radius: 4px; padding: 8px; }
+.history { display: flex; overflow-x: auto; padding: 20px; background: #191f29; border-radius: 8px; }
+.messages { min-width: 260px; flex: 1; }
+.message { height: 32px; display: flex; align-items: center; }
+.message span { display: flex; align-items: center; height: 28px; padding-left: 10px; border-left: 2px solid; }
+output { display: block; margin: 20px 0; overflow-wrap: anywhere; }

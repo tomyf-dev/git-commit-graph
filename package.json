@@ -1,0 +1,54 @@
+{
+  "name": "git-commit-graph",
+  "version": "0.1.0",
+  "description": "Framework-independent SVG Git commit graph with an optional React adapter.",
+  "type": "module",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tomyf-dev/git-commit-graph.git"
+  },
+  "files": [
+    "dist"
+  ],
+  "sideEffects": false,
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    },
+    "./react": {
+      "types": "./dist/adapters/react/index.d.ts",
+      "import": "./dist/adapters/react/index.js"
+    }
+  },
+  "scripts": {
+    "build": "vite build && tsc -p tsconfig.build.json --emitDeclarationOnly",
+    "typecheck": "npm run build && tsc --noEmit",
+    "test": "npm run build && node --import tsx --test tests/*.test.ts tests/*.test.tsx",
+    "dev": "vite --host 127.0.0.1",
+    "prepack": "npm run build",
+    "capture": "node --import tsx scripts/capture-repository.ts",
+    "test:matrix": "GRAPH_EXHAUSTIVE=1 GRAPH_TRANSITION_FULL=1 npm test"
+  },
+  "peerDependencies": {
+    "react": "^18.2.0 || ^19.0.0"
+  },
+  "devDependencies": {
+    "@types/jsdom": "^30.0.0",
+    "@types/node": "^26.6.5",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "jsdom": "^29.1.1",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.4"
+  },
+  "peerDependenciesMeta": {
+    "react": {
+      "optional": true
+    }
+  }
+}
